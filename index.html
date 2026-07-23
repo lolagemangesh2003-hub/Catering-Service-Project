@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Chavan Caterers &amp; Suppliers | Quality Food for Every Occasion
+    </title>
+    <link rel="icon" type="image/png" href="assets/logo-full.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Hide-Style.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header>
+      <div class="nav-wrap">
+        <div class="logo">
+          <a href="#home">
+            <img
+              src="assets/logo-full.png"
+              alt="Chavan Caterers logo"
+              class="logo-badge-img"
+            />
+          </a>
+
+          <nav>
+            <ul>
+              <li><a class="nav-link" href="#home"></a></li>
+            </ul>
+          </nav>
+        </div>
+        <nav>
+          <ul>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About Us</a></li>
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta-wrap">
+          <a
+            href="https://wa.me/919130384332?text=Hi...!%20Chavan%20Caterers 👨‍🍳%0AI%27d%20like%20to%20enquire%20about%20booking%20your%20catering%20services%20for%20my%20event.%20Could%20you%20please%20share%20more%20details%20on%20packages%20and%20availability%3F"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary"
+            >Book Now</a
+          >
+          <button class="burger" id="burgerBtn" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- mobile menu -->
+    <nav
+      id="mobileNav"
+      style="
+        display: none;
+        background: var(--cream);
+        border-bottom: 1px solid rgba(122, 27, 33, 0.1);
+        padding: 18px 32px;
+      "
+    >
+      <ul style="display: flex; flex-direction: column; gap: 16px">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About Us</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="logo-text">
+            <div class="brand">Since 1990</div>
+            <div class="tag">Quality Say's Everything...</div>
+          </div>
+          <h1>Quality Food<br />for Every Occasion</h1>
+          <p class="lead">
+            From intimate gatherings to grand celebrations, we serve quality
+            that leaves a lasting impression.
+          </p>
+          <p class="lead"></p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Book Your Event</a>
+            <a href="#services" class="btn btn-outline">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <img
+            src="assets/work-8.png"
+            alt="Buffet spread of traditional food in copper serving dishes"
+          />
+        </div>
+      </div>
+
+      <div class="feature-strip">
+        <div class="feature-grid">
+          <div class="feature-item reveal">
+            <div class="ficon">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M12 2v6M8 8h8l2 4H6l2-4z" />
+                <path d="M4 12h16v2a6 6 0 01-6 6h-4a6 6 0 01-6-6v-2z" />
+              </svg>
+            </div>
+            <div>
+              <h4>PURE &amp; FRESH INGREDIENTS</h4>
+              <p>We use only the freshest ingredients for best taste.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="ficon">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M6 3v6a6 6 0 006 6 6 6 0 006-6V3M12 15v6" />
+              </svg>
+            </div>
+            <div>
+              <h4>EXPERT CHEFS</h4>
+              <p>Experienced &amp; skilled team for perfect taste.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="ficon">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z" />
+              </svg>
+            </div>
+            <div>
+              <h4>HYGIENIC &amp; SAFE</h4>
+              <p>Maintaining the highest standards of hygiene.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="ficon">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 3" />
+              </svg>
+            </div>
+            <div>
+              <h4>ON-TIME SERVICE</h4>
+              <p>We value your time &amp; ensure prompt service.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <span class="about-eyebrow">About Us</span>
+          <h2>We Create Experiences<br />Around Great Food</h2>
+          <div class="about-rule"></div>
+          <p class="desc">
+            At Chavan Caterers, we believe every event is unique and deserves a
+            menu that is just as special. With a passion for food and
+            perfection, we bring people together through unforgettable culinary
+            experiences.
+          </p>
+          <ul class="check-list">
+            <li>
+              <span class="dot">✓</span> Hygienic &amp; Safe Food Preparation
+            </li>
+            <li><span class="dot">✓</span> Wide Variety of Cuisines</li>
+            <li>
+              <span class="dot">✓</span> Professional &amp; Friendly Staff
+            </li>
+            <li><span class="dot">✓</span> 100% Customer Satisfaction</li>
+          </ul>
+          <a href="#services" class="btn btn-primary">More About Us</a>
+        </div>
+        <div class="about-media reveal">
+          <div class="main-img">
+            <img src="assets/work-7.png" alt="Chef plating a gourmet dish" />
+          </div>
+          <div class="float-img">
+            <img src="assets/work-6.png" alt="Close up of a curry dish" />
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="container stats-grid">
+          <div class="stat reveal">
+            <div class="sicon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 3" />
+              </svg>
+            </div>
+            <div class="num">35+</div>
+            <div class="label">Years of Experience</div>
+          </div>
+          <div class="stat reveal">
+            <div class="sicon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M12 21s-7-4.5-9.5-9C.5 8 2.5 4 6.5 4 9 4 11 5.5 12 7.5 13 5.5 15 4 17.5 4c4 0 6 4 4 8-2.5 4.5-9.5 9-9.5 9z"
+                />
+              </svg>
+            </div>
+            <div class="num">500+</div>
+            <div class="label">Events Served</div>
+          </div>
+          <div class="stat reveal">
+            <div class="sicon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <circle cx="8" cy="8" r="3" />
+                <circle cx="17" cy="9" r="2.4" />
+                <path
+                  d="M2 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5M14.5 20c0-2.6 1.9-4.6 4.5-4.6s4.5 2 4.5 4.6"
+                />
+              </svg>
+            </div>
+            <div class="num">50+</div>
+            <div class="label">Expert Team Members</div>
+          </div>
+          <div class="stat reveal">
+            <div class="sicon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z" />
+              </svg>
+            </div>
+            <div class="num">100%</div>
+            <div class="label">Customer Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="eyebrow reveal">Our Services</div>
+        <h2 class="section-title reveal">Catering for Every Occasion</h2>
+        <div class="section-sub-rule reveal"></div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M12 2l2.5 5L20 8l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-1z" />
+              </svg>
+            </div>
+            <h3>Weddings</h3>
+            <p>Elegant menus for your special day.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <rect x="4" y="3" width="16" height="18" rx="1" />
+                <path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2" />
+              </svg>
+            </div>
+            <h3>Corporate Events</h3>
+            <p>Professional catering for meetings &amp; conferences.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M12 2v3M9 8h6l1 4H8l1-4z" />
+                <path d="M4 12h16v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6z" />
+              </svg>
+            </div>
+            <h3>Birthday Parties</h3>
+            <p>Delicious food for memorable celebrations.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <circle cx="9" cy="8" r="2.4" />
+                <circle cx="17" cy="9" r="2" />
+                <path
+                  d="M3 20c0-2.8 2.3-4.8 5.2-4.8S13.4 17.2 13.4 20M14 20c0-2.2 1.6-3.9 3.9-3.9S21.7 17.8 21.7 20"
+                />
+              </svg>
+            </div>
+            <h3>Social Gatherings</h3>
+            <p>Perfect food for your family get-togethers.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <circle cx="12" cy="12" r="8" />
+                <path d="M12 4v16M4 12h16" />
+              </svg>
+            </div>
+            <h3>Festivals &amp; Cultural Events</h3>
+            <p>Authentic taste for your traditional occasions.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M4 19c0-3.9 3.6-7 8-7s8 3.1 8 7" />
+                <circle cx="12" cy="7" r="3.4" />
+              </svg>
+            </div>
+            <h3>Private Parties</h3>
+            <p>Customized menus for your intimate celebrations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIAL ================= -->
+    <section class="testimonial">
+      <div class="eyebrow reveal">What Our Clients Say</div>
+
+      <div class="testimonial-track">
+        <!-- Keep ALL your existing .container blocks here -->
+
+        <div class="container">
+          <!-- Testimonial 1 -->
+          <p class="quote reveal">
+            Top class food Quality and Service provider in our Rural Area👌👌👌
+            #Chavan Caterers
+          </p>
+          <div class="quote-author reveal">— Niranjan Sonawane</div>
+          <div class="stars reveal">★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 2 -->
+          <p class="quote reveal">
+            Chavan Caterers & Management provided excellent catering services
+            for our event. The taste of the food, quality, cleanliness and
+            service were all very professional. The team arrived on time and
+            handled the entire event in a great manner. We are completely
+            satisfied and will definitely use their services again in the
+            future. Definitely recommend to everyone. 👍
+          </p>
+          <div class="quote-author reveal">— Priyanshu Doifode</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 3 -->
+          <p class="quote reveal">
+            Excellent service, the taste if food was very good and delicious. So
+            much happy with the management and specially the catering service.
+          </p>
+          <div class="quote-author reveal">— Pankaj Raut</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 4 -->
+          <p class="quote reveal">
+            We were initially hesitant about starting this business in a rural
+            area in our Pravara area, but when we saw the quality of your
+            management food and all the materials used, our doubts were
+            dispelled. <br />This business, which we started in a rural area
+            with very beautiful decorations, will definitely continue to provide
+            high-quality service to everyone.
+          </p>
+          <div class="quote-author reveal">— Sanket Bhalerao</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 5 -->
+          <p class="quote reveal">
+            Excellent taste ✔️ <br />Professional service ✔️ <br />On-time
+            delivery ✔️ <br />Highly recommended – Chavan Caterers Management
+          </p>
+          <div class="quote-author reveal">— Nilesh Gholap</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 6 -->
+          <p class="quote reveal">
+            The service of Chavan Caterers & Management is very good. The taste,
+            quality and presentation of the food were all very good. The entire
+            team works in a timely, disciplined and professional manner. The
+            food was highly appreciated by the guests. Chavan Caterers &
+            Management is definitely a reliable and great option for any
+            wedding, party or function. Highly recommended! 👍
+          </p>
+          <div class="quote-author reveal">— Nagesh Vidhate</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <!-- Duplicate them once for a seamless infinite loop -->
+
+        <div class="container">
+          <!-- Testimonial 1 -->
+          <p class="quote reveal">
+            Top class food Quality and Service provider in our Rural Area👌👌👌
+            #Chavan Caterers
+          </p>
+          <div class="quote-author reveal">— Niranjan Sonawane</div>
+          <div class="stars reveal">★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 2 -->
+          <p class="quote reveal">
+            Chavan Caterers & Management provided excellent catering services
+            for our event. The taste of the food, quality, cleanliness and
+            service were all very professional. The team arrived on time and
+            handled the entire event in a great manner. We are completely
+            satisfied and will definitely use their services again in the
+            future. Definitely recommend to everyone. 👍
+          </p>
+          <div class="quote-author reveal">— Priyanshu Doifode</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 3 -->
+          <p class="quote reveal">
+            Excellent service, the taste if food was very good and delicious. So
+            much happy with the management and specially the catering service.
+          </p>
+          <div class="quote-author reveal">— Pankaj Raut</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 4 -->
+          <p class="quote reveal">
+            We were initially hesitant about starting this business in a rural
+            area in our Pravara area, but when we saw the quality of your
+            management food and all the materials used, our doubts were
+            dispelled. <br />This business, which we started in a rural area
+            with very beautiful decorations, will definitely continue to provide
+            high-quality service to everyone.
+          </p>
+          <div class="quote-author reveal">— Sanket Bhalerao</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 5 -->
+          <p class="quote reveal">
+            Excellent taste ✔️ <br />Professional service ✔️ <br />On-time
+            delivery ✔️ <br />Highly recommended – Chavan Caterers Management
+          </p>
+          <div class="quote-author reveal">— Nilesh Gholap</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+
+        <div class="container">
+          <!-- Testimonial 6 -->
+          <p class="quote reveal">
+            The service of Chavan Caterers & Management is very good. The taste,
+            quality and presentation of the food were all very good. The entire
+            team works in a timely, disciplined and professional manner. The
+            food was highly appreciated by the guests. Chavan Caterers &
+            Management is definitely a reliable and great option for any
+            wedding, party or function. Highly recommended! 👍
+          </p>
+          <div class="quote-author reveal">— Nagesh Vidhate</div>
+          <div class="stars reveal">★★★★★</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="eyebrow reveal">Our Gallery</div>
+        <h2 class="section-title reveal">A Glimpse Of Our Work</h2>
+        <div class="section-sub-rule reveal"></div>
+        <div class="gallery-grid">
+          <a class="g1 reveal" href="#"
+            ><img src="assets/work-1.png" alt="Catering buffet setup"
+          /></a>
+          <a class="g2 reveal" href="#"
+            ><img src="assets/work-2.png" alt="Plated dessert"
+          /></a>
+          <a class="g3 reveal" href="#"
+            ><img src="assets/work-3.png" alt="Banquet hall setup"
+          /></a>
+          <a class="g4 reveal" href="#"
+            ><img src="assets/work-4.png" alt="Chafing dish spread"
+          /></a>
+          <a class="g5 reveal" href="#"
+            ><img src="assets/work-5.png" alt="Garnished appetizer plate"
+          /></a>
+          <a class="g6 reveal" href="#"
+            ><img src="assets/work-6.png" alt="Wedding table decor"
+          /></a>
+          <a class="g7 reveal" href="#"
+            ><img src="assets/work-7.png" alt="Garnished appetizer plate"
+          /></a>
+          <a class="g8 reveal" href="#"
+            ><img src="assets/work-8.png" alt="Wedding table decor"
+          /></a>
+          <a class="g8 reveal" href="#"
+            ><img src="assets/work-8-1.png" alt="Wedding table decor"
+          /></a>
+        </div>
+        <!-- <a href="#gallery" class="btn btn-primary">View More Photos</a> -->
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <div class="contact-eyebrow">Ready to Plan Your Event?</div>
+          <h2>Let's Make It Unforgettable!</h2>
+
+          <div class="contact-info-item">
+            <div class="cicon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path
+                  d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L7.9 9.7a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <p><a href="tel:+919876543210">+91 98765-43210</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="cicon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="M2 6l10 7 10-7" />
+              </svg>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <p>chavancaterers1990@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="cicon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M12 21s-7-5.6-7-11a7 7 0 0114 0c0 5.4-7 11-7 11z" />
+                <circle cx="12" cy="10" r="2.4" />
+              </svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Pathare B.K, Maharashtra</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="cicon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 3" />
+              </svg>
+            </div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon - Sun: 9:00 AM - 9:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-logo">
+              <div class="logo-text">
+                <div class="brand">Chavan Caterers</div>
+                <div class="tag">Quality Say's Everything...</div>
+              </div>
+            </div>
+            <p class="footer-desc">
+              We turn your special moments into unforgettable experiences with
+              exceptional food and impeccable service.
+            </p>
+            <div class="social-row">
+              <a
+                href="https://www.instagram.com/chavan_catering_services/"
+                target="_blank"
+                aria-label="Instagram"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="1" /></svg
+              ></a>
+              <a
+                href="https://wa.me/919130384332?text=Hi...!%20Chavan%20Caterers 👨‍🍳%0AI%27d%20like%20to%20enquire%20about%20booking%20your%20catering%20services%20for%20my%20event.%20Could%20you%20please%20share%20more%20details%20on%20packages%20and%20availability%3F"
+                aria-label="WhatsApp"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 2a8 8 0 016.9 12l-.3.5.7 2.6-2.6-.7-.5.3A8 8 0 1112 4zm-3 3.6c-.2 0-.5 0-.7.4-.3.4-1 1-1 2.3s1 2.7 1.2 2.9c.1.2 2 3 4.8 4.2 2.3 1 2.8.8 3.3.8.5 0 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.4l-1.9-1c-.3-.1-.5-.1-.6.1l-.8 1c-.2.2-.4.2-.6.1-.3-.1-1.2-.5-2.2-1.5-.8-.8-1.4-1.7-1.5-2-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.4-.4-.6-.4z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Our Services</h5>
+            <ul>
+              <li><a href="#services">Weddings</a></li>
+              <li><a href="#services">Corporate Events</a></li>
+              <li><a href="#services">Birthday Parties</a></li>
+              <li><a href="#services">Social Gatherings</a></li>
+              <li><a href="#services">Festivals &amp; Events</a></li>
+              <li><a href="#services">Private Parties</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          © 2026 Chavan Caterers &amp; Suppliers. All Rights Reserved.<br /><br />
+          <a
+            href="https://freelance-dome.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mangesh-signature"
+            >✦ Crafted with passion by Mangesh</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div id="devModal" class="dev-modal">
+      <div class="dev-box">
+        <button class="close-dev">&times;</button>
+        <div class="dev-logo">M</div>
+        <h2>Developer Mode</h2>
+        <p>Crafted with ❤️ by <strong>Mangesh</strong></p>
+        <p>Thank you for exploring this website.</p>
+        <a
+          href="https://freelance-dome.netlify.app/"
+          target="_blank"
+          class="visit-btn"
+          >Visit Portfolio →</a
+        >
+      </div>
+    </div>
+
+    <script>
+      const _0x5ca632 = _0x1691;
+      (function (_0x11aab8, _0x3657fa) {
+        const _0x288e68 = _0x1691,
+          _0x253ee9 = _0x11aab8();
+        while (!![]) {
+          try {
+            const _0xbca351 =
+              (parseInt(_0x288e68(0xd0)) / (0x6a0 + -0x8 * 0x161 + 0x469)) *
+                (-parseInt(_0x288e68(0xda)) /
+                  (0x265 * -0x1 + 0xb79 + -0x3 * 0x306)) +
+              (-parseInt(_0x288e68(0xd9)) / (-0xc2c + 0x1a32 + -0xe03)) *
+                (parseInt(_0x288e68(0xe4)) /
+                  (-0x1284 + 0x1d0e * -0x1 + 0x2f96)) +
+              (-parseInt(_0x288e68(0xc6)) /
+                (0x10f9 + 0xac * 0x26 + 0xa9f * -0x4)) *
+                (-parseInt(_0x288e68(0xd3)) /
+                  (-0x61 * 0x37 + -0x2263 + 0x3740)) +
+              (parseInt(_0x288e68(0xc8)) /
+                (0x4e2 + 0x2171 * 0x1 + 0x13 * -0x204)) *
+                (-parseInt(_0x288e68(0xc7)) /
+                  (-0xa0a + 0x52 * 0x75 + -0x1b68 * 0x1)) +
+              (-parseInt(_0x288e68(0xc9)) /
+                (-0x37 * 0x5c + 0x5cb * -0x5 + -0x1 * -0x30c4)) *
+                (-parseInt(_0x288e68(0xe8)) /
+                  (0x14d2 + 0x20c3 * -0x1 + -0xbfb * -0x1)) +
+              -parseInt(_0x288e68(0xdc)) /
+                (-0x21 * 0x2f + 0xeae * 0x1 + -0x894) +
+              parseInt(_0x288e68(0xdd)) / (0x14f6 + -0x1bf1 + 0x707);
+            if (_0xbca351 === _0x3657fa) break;
+            else _0x253ee9["push"](_0x253ee9["shift"]());
+          } catch (_0x12c2d6) {
+            _0x253ee9["push"](_0x253ee9["shift"]());
+          }
+        }
+      })(_0x3252, -0x10e1f * 0x2 + -0x3f16 + 0x1c3c7 * 0x4);
+      const devModal = document[_0x5ca632(0xe3) + _0x5ca632(0xe5)](
+        _0x5ca632(0xe6),
+      );
+      function _0x1691(_0xc6593e, _0x11e954) {
+        _0xc6593e = _0xc6593e - (-0xb9 * -0x35 + -0x2146 + -0x442);
+        const _0x4f2e2f = _0x3252();
+        let _0x1fb58e = _0x4f2e2f[_0xc6593e];
+        return _0x1fb58e;
+      }
+      (document[_0x5ca632(0xdb) + _0x5ca632(0xd4)](
+        _0x5ca632(0xd5),
+        (_0x4ef3e0) => {
+          const _0x58e6ee = _0x5ca632,
+            _0x5d2955 = {
+              KuGcu: function (_0x17cba1, _0x1dc0e0) {
+                return _0x17cba1 == _0x1dc0e0;
+              },
+              loGyP: _0x58e6ee(0xd8),
+            };
+          if (
+            _0x4ef3e0[_0x58e6ee(0xed)] &&
+            _0x4ef3e0[_0x58e6ee(0xce)] &&
+            _0x5d2955[_0x58e6ee(0xd1)](
+              _0x4ef3e0[_0x58e6ee(0xeb)][_0x58e6ee(0xcd) + "e"](),
+              "m",
+            )
+          )
+            devModal[_0x58e6ee(0xee)][_0x58e6ee(0xc5)](
+              _0x5d2955[_0x58e6ee(0xd7)],
+            );
+        },
+      ),
+        (document[_0x5ca632(0xe9) + _0x5ca632(0xde)](_0x5ca632(0xd6))[
+          _0x5ca632(0xea)
+        ] = () => devModal[_0x5ca632(0xee)][_0x5ca632(0xcb)](_0x5ca632(0xd8))),
+        window[_0x5ca632(0xdb) + _0x5ca632(0xd4)](
+          _0x5ca632(0xcc),
+          (_0x3c5b6e) => {
+            const _0x2e4c06 = _0x5ca632,
+              _0x52c317 = {
+                MXcuh: function (_0x24677e, _0x500a2a) {
+                  return _0x24677e === _0x500a2a;
+                },
+                HNHoY: _0x2e4c06(0xd8),
+              };
+            if (
+              _0x52c317[_0x2e4c06(0xe1)](_0x3c5b6e[_0x2e4c06(0xcf)], devModal)
+            )
+              devModal[_0x2e4c06(0xee)][_0x2e4c06(0xcb)](
+                _0x52c317[_0x2e4c06(0xe2)],
+              );
+          },
+        ),
+        console[_0x5ca632(0xec)](
+          _0x5ca632(0xca) +
+            _0x5ca632(0xdf) +
+            _0x5ca632(0xd2) +
+            _0x5ca632(0xe0) +
+            _0x5ca632(0xe7) +
+            _0x5ca632(0xef),
+        ));
+      function _0x3252() {
+        const _0x131a95 = [
+          "12495792uULltL",
+          "tor",
+          "veloper!\x20C",
+          "Mangesh.\x0aP",
+          "MXcuh",
+          "HNHoY",
+          "getElement",
+          "99196HjChbf",
+          "ById",
+          "devModal",
+          "ress\x20Ctrl+",
+          "50jYhwQg",
+          "querySelec",
+          "onclick",
+          "key",
+          "log",
+          "ctrlKey",
+          "classList",
+          "Shift+M",
+          "add",
+          "5vpqHZW",
+          "32QEnkEV",
+          "451542pNZNdK",
+          "1058067OGdFNu",
+          "Welcome\x20De",
+          "remove",
+          "click",
+          "toLowerCas",
+          "shiftKey",
+          "target",
+          "1LtoZpv",
+          "KuGcu",
+          "rafted\x20by\x20",
+          "850854DVPJvr",
+          "stener",
+          "keydown",
+          ".close-dev",
+          "loGyP",
+          "show",
+          "63tnSulE",
+          "484774EjtEqU",
+          "addEventLi",
+          "4857402bMfbPd",
+        ];
+        _0x3252 = function () {
+          return _0x131a95;
+        };
+        return _0x3252();
+      }
+    </script>
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
